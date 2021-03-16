@@ -28,7 +28,7 @@ export class BudgetItemListComponent implements OnInit {
       width: '580px',
       data: item
     });
-    
+
     dialogRef.afterClosed().subscribe(result => {
       //Check if result has a value
       if (result) {
